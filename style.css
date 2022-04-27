@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: hsl(217, 54%, 11%);
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 50px auto;
+    width: 280px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: hsl(217, 54%, 5%) 10px 10px 10px;
+}
+
+.container .img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+}
+
+.container .letters{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.container h2{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.container p{
+    opacity: 0.3;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+}
+
+.container .align{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.container .eth{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    color: hsl(178, 100%, 50%);
+    size: 14px;
+}
+
+.container .clock{
+    display: flex;
+    justify-content: flex-end;
+    gap: 7px;
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    color: white;
+    opacity: 0.3;
+    size: 14px;
+}
+
+.container .ava{
+    border-top: 1px hsl(215, 32%, 27%) solid;
+    padding-left: 15px;
+    padding-top: 10px;
+    gap: 10px;
+    display: flex;
+}
+
+.container .ava img{
+   width: 30px;
+   height: 30px;
+}
+
+.container .ava h5{
+    color: white;
+    padding-top: 5px;
+    opacity: 0.3;
+    font-size: 15px;
+}
+
+.container .ava span{
+    color: white;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.attribution{
+    font-size: 20px;
+    color: #fff;
+
+}
+
+
+
+
